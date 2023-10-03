@@ -1,0 +1,58 @@
+h1{
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+}
+
+.list-container{
+    flex: 5;
+}
+
+.form-container{
+    background-color: white;
+    flex: 3;
+}
+
+.my-form{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.my-form label{
+    /*Space next to my form class and label indicates look for a my form class followed by a label and apply styles to it*/
+    display: inline-block;
+    width: 90px;
+
+}
+
+.main-icon{
+    cursor: pointer;
+}
+.task :hover{
+    font-size: 1.2rem;
+
+}
+.task .info{
+    flex: 3;
+}
+.task .info p{
+    color: aquamarine;
+    margin: 0;
+}
+.task .info h5 {
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 5px;
+
+
+}
+
+.task .status{
+    flex: 3;
+
